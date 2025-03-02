@@ -1,13 +1,13 @@
-// {
-// 	"version": 2,
-// 	"rewrites": [{ "source": "/(.*)", "destination": "/api" }]
-// }
-
 {
-    "crons": [
-        {
-            "path": "/api/cron/1d",
-            "schedule": "0 0 * * *"
-        }
-    ]
+	"version": 2,
+	"rewrites": [{ "source": "/(.*)", "destination": "/api" }]
 }
+
+// {
+//     "crons": [
+//         {
+//             "path": "/api/cron/1d",
+//             "schedule": "0 0 * * *"
+//         }
+//     ]
+// }

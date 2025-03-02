@@ -11,6 +11,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"@googleapis/calendar": "^9.7.9",
 		"@vercel/postgres": "^0.7.2",
 		"axios": "^1.7.9",
 		"cheerio": "^1.0.0",
